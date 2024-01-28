@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+:root {
+    --cor-preta: #191919;
+    --cor-vinho: #750E21;
+    --cor-laranja: #E3651D;
+    --cor-verde: #BED754;
+    --fonte: 'Kanit', sans-serif;
+}
+
+body {
+    font-family: var(--fonte);
+    background-color: var(--cor-vinho);
+}
+
+.cabecalho {
+    padding: 30px;
+    background-color: var(--cor-preta);
+}
+
+.cabecalho__navegacao {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.cabecalho__navegacao__links {
+    text-decoration: none;
+    color: var(--cor-verde);
+    font-weight: 800;
+    font-size: 1em;
+    font-family: var(--fonte);
+}
+
+.cabecalho__navegacao__links:hover {
+    color: var(--cor-laranja);
+}
+
+.sessao__fotos_lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 5em;
+
+}
+
+.conteudo {
+    padding: 50px 100px 50px 100px;
+}
+
+.sessao__fotos_lista__imagem {
+    padding: 1em;
+    text-align: center;
+    color: var(--cor-verde);
+    font-weight: 900;
+    font-family: var(--fonte);
+}
+
+.rodape {
+    padding: 30px;
+    background-color: var(--cor-preta);
+}
+
+.rodape__texto {
+    text-align: center;
+    padding: 1em;
+    color: var(--cor-verde);
+    font-family: var(--fonte);
+}
+
+.imagens {
+    border-radius: 10px;
+}
